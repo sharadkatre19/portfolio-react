@@ -109,7 +109,7 @@ useEffect(() => {
                   {index === 0 && line}
                   {index === 1 && (
                     <>
-                      I'm{' '}
+                      I&apos;m{' '}
                       <span className="text-blue-500 hover:text-sky-400 transition-colors duration-300">
                         {personalData.name}
                       </span>

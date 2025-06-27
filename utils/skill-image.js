@@ -47,6 +47,7 @@ import nextJS from '../app/assets/svg/skills/nextJS.svg';
 import nginx from '../app/assets/svg/skills/nginx.svg';
 import numpy from '../app/assets/svg/skills/numpy.svg';
 import nuxtJS from '../app/assets/svg/skills/nuxtJS.svg';
+import nodejs from '../app/assets/svg/skills/nodejs.svg';
 import opencv from '../app/assets/svg/skills/opencv.svg';
 import photoshop from '../app/assets/svg/skills/photoshop.svg';
 import php from '../app/assets/svg/skills/php.svg';
@@ -112,6 +113,8 @@ export const skillsImage = (skill) => {
       return nextJS;
     case 'nuxt js':
       return nuxtJS;
+    case 'node js':
+      return nodejs;
     case 'react':
       return react;
     case 'svelte':
@@ -255,6 +258,7 @@ export const skillsImage = (skill) => {
     case 'fastapi':
       return fastapi;
     default:
+      console.warn(`No image found for skill: ${skill}`);
       break;
   }
 }

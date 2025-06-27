@@ -93,7 +93,7 @@ function ContactSection() {
             Get In Touch
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            I'd love to hear from you. Send me a message or reach out through any of the channels below.
+            I&apos;d love to hear from you. Send me a message or reach out through any of the channels below.
           </p>
         </div>
 
@@ -203,7 +203,7 @@ function ContactSection() {
             >
               Drop me a line
             </Link>{' '}
-            and let's discuss your next project.
+            and let&apos;s discuss your next project.
           </p>
         </div>
       </div>

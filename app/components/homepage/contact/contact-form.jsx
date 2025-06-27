@@ -183,7 +183,7 @@ function ContactForm() {
             <TbCheck className="w-8 h-8 text-white" />
           </div>
           <h3 className="text-2xl font-bold text-green-700 mb-2">Message Sent Successfully!</h3>
-          <p className="text-green-600 mb-4">Thank you for reaching out. I'll get back to you soon!</p>
+          <p className="text-green-600 mb-4">Thank you for reaching out. I&apos;ll get back to you soon!</p>
           <div className="flex items-center justify-center gap-2 text-sm text-green-500">
             <HiSparkles className="w-4 h-4" />
             <span>Resetting form...</span>
@@ -203,7 +203,7 @@ function ContactForm() {
           </div>
           <div>
             <h2 className="font-bold text-2xl text-[#0974f1] uppercase tracking-wide">Get In Touch</h2>
-            <p className="text-sm text-gray-500">Let's start a conversation</p>
+            <p className="text-sm text-gray-500">Let&apos;s start a conversation</p>
           </div>
         </div>
         
